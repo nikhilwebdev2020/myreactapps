@@ -1,0 +1,116 @@
+body {
+    font: 14px "Century Gothic", Futura, sans-serif;
+    margin: 20px;
+  }
+  
+  ol, ul {
+    padding-left: 30px;
+  }
+  
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  .status {
+    margin-bottom: 10px;
+  }
+  
+  .square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 34px;
+  }
+  
+  .square:focus {
+    outline: none;
+  }
+  
+  .kbd-navigation .square:focus {
+    background: #ddd;
+  }
+  
+  .game {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .game-info {
+    margin-left: 20px;
+  }
+
+  .container {
+    padding: 1em 4em;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .col {
+    flex: 1 1 auto;
+  }
+
+  .m-1 {
+    margin: 10px;
+  }
+
+  .brand {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 0.20em 0.40em;
+    font-weight: 600;
+  }
+
+  .brand-orange {
+    background-color: orange;
+    border-color: orange;
+    color: rgb(0 0 0 / 85%);
+  }
+
+  .brand-blue {
+    background-color: #255eb5;
+    border-color: #255eb5;
+    color: #fff;
+  }
+
+  .button,
+  .button-sm {
+    border-radius: 3px;
+    cursor: pointer;
+    border:none;
+  }
+
+  .button {
+    padding: 0.6em 1em;
+  }
+
+  .button-sm {
+    padding: 0.3em 0.6em;
+  }
+
+  .button-alt {
+    background-color: rgb(0 0 0 / 70%);
+    color: #fff;
+  }  
+
+  .button-red {
+    background-color: rgb(179, 33, 33);
+    color: #fff;
+  }
+
+  .button-blue {
+    background-color: rgb(42, 86, 185);
+    color: #fff;
+  }
